@@ -1,0 +1,37 @@
+﻿  dynamic_menu.cpp
+D:\Workspace\project\cau_truc_du_lieu_giai_thuat\material_management\material_management\myLib.h(29,26): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+D:\Workspace\project\cau_truc_du_lieu_giai_thuat\material_management\material_management\myLib.h(29,29): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+D:\Workspace\project\cau_truc_du_lieu_giai_thuat\material_management\material_management\dynamic_menu.cpp(86,38): warning C4309: 'argument': truncation of constant value
+D:\Workspace\project\cau_truc_du_lieu_giai_thuat\material_management\material_management\dynamic_menu.cpp(90,90): warning C4309: 'argument': truncation of constant value
+D:\Workspace\project\cau_truc_du_lieu_giai_thuat\material_management\material_management\dynamic_menu.cpp(94,94): warning C4309: 'argument': truncation of constant value
+D:\Workspace\project\cau_truc_du_lieu_giai_thuat\material_management\material_management\dynamic_menu.cpp(103,38): warning C4309: 'argument': truncation of constant value
+D:\Workspace\project\cau_truc_du_lieu_giai_thuat\material_management\material_management\dynamic_menu.cpp(107,90): warning C4309: 'argument': truncation of constant value
+D:\Workspace\project\cau_truc_du_lieu_giai_thuat\material_management\material_management\dynamic_menu.cpp(111,94): warning C4309: 'argument': truncation of constant value
+D:\Workspace\project\cau_truc_du_lieu_giai_thuat\material_management\material_management\dynamic_menu.cpp(472,63): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  employee.cpp
+D:\Workspace\project\cau_truc_du_lieu_giai_thuat\material_management\material_management\myLib.h(29,26): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+D:\Workspace\project\cau_truc_du_lieu_giai_thuat\material_management\material_management\myLib.h(29,29): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+D:\Workspace\project\cau_truc_du_lieu_giai_thuat\material_management\material_management\employee.cpp(59,63): warning C4390: ';': empty controlled statement found; is this the intent?
+  invoice.cpp
+D:\Workspace\project\cau_truc_du_lieu_giai_thuat\material_management\material_management\myLib.h(29,26): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+D:\Workspace\project\cau_truc_du_lieu_giai_thuat\material_management\material_management\myLib.h(29,29): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+D:\Workspace\project\cau_truc_du_lieu_giai_thuat\material_management\material_management\invoice.cpp(3,23): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Workspace\project\cau_truc_du_lieu_giai_thuat\material_management\material_management\invoice.cpp(165,69): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Workspace\project\cau_truc_du_lieu_giai_thuat\material_management\material_management\invoice.cpp(226,64): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  main.cpp
+D:\Workspace\project\cau_truc_du_lieu_giai_thuat\material_management\material_management\myLib.h(29,26): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+D:\Workspace\project\cau_truc_du_lieu_giai_thuat\material_management\material_management\myLib.h(29,29): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+  material.cpp
+D:\Workspace\project\cau_truc_du_lieu_giai_thuat\material_management\material_management\myLib.h(29,26): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+D:\Workspace\project\cau_truc_du_lieu_giai_thuat\material_management\material_management\myLib.h(29,29): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+  save_load_file.cpp
+D:\Workspace\project\cau_truc_du_lieu_giai_thuat\material_management\material_management\myLib.h(29,26): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+D:\Workspace\project\cau_truc_du_lieu_giai_thuat\material_management\material_management\myLib.h(29,29): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+D:\Workspace\project\cau_truc_du_lieu_giai_thuat\material_management\material_management\save_load_file.cpp(223,62): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+D:\Workspace\project\cau_truc_du_lieu_giai_thuat\material_management\material_management\employee.cpp(27): warning C4715: 'checkSameEmployeeID': not all control paths return a value
+D:\Workspace\project\cau_truc_du_lieu_giai_thuat\material_management\material_management\employee.cpp(394): warning C4715: 'removeEmployeeNode': not all control paths return a value
+invoice.obj : error LNK2019: unresolved external symbol "void __cdecl addInvoiceDetailExport(struct InvoiceDetails &,struct Materials)" (?addInvoiceDetailExport@@YAXAEAUInvoiceDetails@@UMaterials@@@Z) referenced in function "void __cdecl invoiceExport(struct InvoiceDetails &,struct Materials)" (?invoiceExport@@YAXAEAUInvoiceDetails@@UMaterials@@@Z)
+    Hint on symbols that are defined and could potentially match:
+      "void __cdecl addInvoiceDetailExport(struct InvoiceDetails &,struct Materials,int,int)" (?addInvoiceDetailExport@@YAXAEAUInvoiceDetails@@UMaterials@@HH@Z)
+D:\Workspace\project\cau_truc_du_lieu_giai_thuat\material_management\x64\Debug\material_management.exe : fatal error LNK1120: 1 unresolved externals
